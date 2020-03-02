@@ -15,4 +15,12 @@ public class Triangulo extends Figura {
     public int compareTo(Figura figura) {
         return 0;
     }
+
+    public double getB() {
+        return b;
+    }
+
+    public double getH() {
+        return h;
+    }
 }

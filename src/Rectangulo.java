@@ -16,4 +16,12 @@ public class Rectangulo extends Figura{
     public int compareTo(Figura figura) {
         return 0;
     }
+
+    public double getL1() {
+        return l1;
+    }
+
+    public double getL2() {
+        return l2;
+    }
 }
