@@ -13,7 +13,7 @@ public class Rectangulo extends Figura{
     }
 
     public static void main(String[] args){
-        Rectangulo r = new Rectangulo(4,10);
+        Rectangulo r = new Rectangulo(4, 10);
         System.out.println(r.area());
     }
 }
