@@ -13,4 +13,8 @@ public class Circulo extends Figura{
     public int compareTo(Figura figura) {
         return 0;
     }
+
+    public double getR() {
+        return r;
+    }
 }
