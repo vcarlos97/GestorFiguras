@@ -1,8 +1,7 @@
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class GestorFiguras {
-
-    public static double Figura[];
 
     public static double suma(Figura [] figura) {
         double aTotal = 0;
@@ -11,4 +10,7 @@ public class GestorFiguras {
     return aTotal;
     }
 
+    public static void sort(Figura[] figuras){
+        Arrays.sort(figuras);
+    }
 }

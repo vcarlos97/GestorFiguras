@@ -6,6 +6,7 @@ public class GestorFigurasTest {
         v[2] = new Triangulo(5, 6);
         v[3] = new Cuadrado(4);
         double suma = GestorFiguras.suma(v);
+        GestorFiguras.sort(v);
         System.out.println(suma);
     }
 }

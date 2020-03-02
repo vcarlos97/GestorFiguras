@@ -16,9 +16,4 @@ public class Rectangulo extends Figura{
     public int compareTo(Figura figura) {
         return 0;
     }
-
-    public static void main(String[] args){
-        Rectangulo r = new Rectangulo(4, 10);
-        System.out.println(r.area());
-    }
 }
