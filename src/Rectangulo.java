@@ -12,6 +12,11 @@ public class Rectangulo extends Figura{
         return (l1*l2);
     }
 
+    @Override
+    public int compareTo(Figura figura) {
+        return 0;
+    }
+
     public static void main(String[] args){
         Rectangulo r = new Rectangulo(4, 10);
         System.out.println(r.area());

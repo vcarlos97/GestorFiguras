@@ -11,12 +11,4 @@ public class GestorFiguras {
     return aTotal;
     }
 
-    public static void main(String[] args){
-        Figura[] v = new Figura[3];
-        v[0] = new Rectangulo(4,10);
-        v[1] = new Circulo(4);
-        v[2] = new Triangulo(5, 6);
-        double suma = GestorFiguras.suma(v);
-        System.out.println(suma);
-}
 }

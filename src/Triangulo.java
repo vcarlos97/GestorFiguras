@@ -11,6 +11,11 @@ public class Triangulo extends Figura {
         return (b * h) / 2;
     }
 
+    @Override
+    public int compareTo(Figura figura) {
+        return 0;
+    }
+
     public static void main(String[] args) {
         Triangulo t = new Triangulo(5,6);
         System.out.println(t.area());
