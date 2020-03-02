@@ -8,8 +8,9 @@ public class GestorFigurasTest {
         double suma = GestorFiguras.suma(v);
         GestorFiguras.sort(v);
         for(int i =0; i<v.length; ++i){
-            System.out.println("Figura: " + v.getClass().getName());
+            System.out.println("Figura: " + v[i].getClass().getName());
+            System.out.println("Area: " + v[i].area());
         }
-        System.out.println(GestorFiguras.suma(v));
+        System.out.println("Area total: " + GestorFiguras.suma(v));
     }
 }
