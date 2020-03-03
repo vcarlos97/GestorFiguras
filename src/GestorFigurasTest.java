@@ -6,10 +6,10 @@ public class GestorFigurasTest {
         v[2] = new Triangulo(5, 6);
         v[3] = new Cuadrado(4);
         double suma = GestorFiguras.suma(v);
-        for(int i =0; i<v.length; ++i) {
-            GestorFiguras.sort(v);
+        GestorFiguras.sort(v);
+        for(int i =0; i<v.length; ++i)
             System.out.println("Figura: " + v[i].getClass().getName() + " -> Area: " + v[i].area());
-        }
+
         System.out.println("Area total: " + GestorFiguras.suma(v));
     }
 }
