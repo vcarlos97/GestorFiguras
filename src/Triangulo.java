@@ -13,7 +13,7 @@ public class Triangulo extends Figura {
 
     @Override
     public int compareTo(Figura figura) {
-        return 0;
+        return super.compareTo(figura);
     }
 
     public double getB() {

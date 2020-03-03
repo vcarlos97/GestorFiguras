@@ -11,7 +11,7 @@ public class Circulo extends Figura{
 
     @Override
     public int compareTo(Figura figura) {
-        return 0;
+        return super.compareTo(figura);
     }
 
     public double getR() {
