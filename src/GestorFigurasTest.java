@@ -7,10 +7,9 @@ public class GestorFigurasTest {
         v[3] = new Cuadrado(4);
         double suma = GestorFiguras.suma(v);
         GestorFiguras.sort(v);
-        for(int i =0; i<v.length; ++i){
-            System.out.println("Figura: " + v[i].getClass().getName());
-            System.out.println("Area: " + v[i].area());
-        }
+        for(int i =0; i<v.length; ++i)
+            System.out.println("Figura: " + v[i].getClass().getName() + " -> Area: " +  v[i].area());
+
         System.out.println("Area total: " + GestorFiguras.suma(v));
     }
 }
